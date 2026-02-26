@@ -56,7 +56,7 @@ ram.runtime = "200M"
 	example = "johndoe"
 
 	[install.email]
-	ask.en = "The email adress to use for your GoToSocial admin account."
+	ask.en = "The email address to use for your GoToSocial admin account."
 	ask.gl = "O enderezo de correo electrónico da conta Admin."
 	ask.ca = "Adreça de correu pel compte d'administració."
 	ask.fr = "L'adresse e-mail à utiliser pour de le compte admin de GoToSocial."
