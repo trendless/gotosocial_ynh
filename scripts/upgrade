@@ -62,13 +62,6 @@ chown -R "$app:www-data" "$install_dir/.cache"
 chmod -R 750 "$install_dir/.cache"
 
 #=================================================
-# UPDATE A CONFIG FILE
-#=================================================
-ynh_script_progression "Updating $app's configuration files..."
-
-ynh_config_add --template="config.yaml" --destination="$install_dir/config.yaml"
-
-#=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
 ynh_script_progression "Upgrading system configurations related to $app..."
